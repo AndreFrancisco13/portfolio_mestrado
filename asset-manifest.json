@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/AndreFrancisco13/portfolio/static/css/main.8531c742.css",
+    "main.js": "/AndreFrancisco13/portfolio/static/js/main.b9faa800.js",
+    "static/media/sara.jpg": "/AndreFrancisco13/portfolio/static/media/sara.59b64185064d8cc39d5f.jpg",
+    "static/media/fundo.png": "/AndreFrancisco13/portfolio/static/media/fundo.525477e97eaf2dfd115d.png",
+    "static/media/andre.png": "/AndreFrancisco13/portfolio/static/media/andre.79abd8ee007dcee0371a.png",
+    "static/media/topIndian.jpg": "/AndreFrancisco13/portfolio/static/media/topIndian.fb59853ede8cdb07af13.jpg",
+    "static/media/lodo.jpg": "/AndreFrancisco13/portfolio/static/media/lodo.16f7bda0bd365d66721c.jpg",
+    "static/media/oposti.jpg": "/AndreFrancisco13/portfolio/static/media/oposti.7761ea1edcddd405dc8f.jpg",
+    "static/media/planetarium.jpg": "/AndreFrancisco13/portfolio/static/media/planetarium.04194bcdb9b91784c2ee.jpg",
+    "static/media/travel.jpg": "/AndreFrancisco13/portfolio/static/media/travel.4e2d05628e392a90b8c0.jpg",
+    "static/media/lodo.png": "/AndreFrancisco13/portfolio/static/media/lodo.195e9d216d094e4bd098.png",
+    "static/media/topIndian.png": "/AndreFrancisco13/portfolio/static/media/topIndian.c89c81803fb287771a26.png",
+    "static/media/travel.png": "/AndreFrancisco13/portfolio/static/media/travel.9e07aeecdb82f0ffb849.png",
+    "static/media/portfolio.png": "/AndreFrancisco13/portfolio/static/media/portfolio.69dace0d378097d5fe7f.png",
+    "static/media/oposti.png": "/AndreFrancisco13/portfolio/static/media/oposti.fdb9920e648fb4e67d69.png",
+    "static/media/sara.png": "/AndreFrancisco13/portfolio/static/media/sara.5913e0014d962b6aa14d.png",
+    "static/media/planetarium.png": "/AndreFrancisco13/portfolio/static/media/planetarium.ef2aac26429e4ec7b3c9.png",
+    "static/media/bootstrap.png": "/AndreFrancisco13/portfolio/static/media/bootstrap.376c3f5a4a12bf9bada9.png",
+    "static/media/portfolio.jpg": "/AndreFrancisco13/portfolio/static/media/portfolio.7d49a5881c2da6b94c80.jpg",
+    "static/media/react.png": "/AndreFrancisco13/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/php.png": "/AndreFrancisco13/portfolio/static/media/php.aa680f57bf75b5d5acdc.png",
+    "static/media/Adobe_Photoshop.png": "/AndreFrancisco13/portfolio/static/media/Adobe_Photoshop.33821753c0629b734e8f.png",
+    "static/media/CSS3.png": "/AndreFrancisco13/portfolio/static/media/CSS3.58dfbebae4a02001b50e.png",
+    "static/media/Tailwind.png": "/AndreFrancisco13/portfolio/static/media/Tailwind.44fb29892e0602c1dd64.png",
+    "static/media/HTML5.png": "/AndreFrancisco13/portfolio/static/media/HTML5.94972f53c025a8fb7e2b.png",
+    "index.html": "/AndreFrancisco13/portfolio/index.html",
+    "main.8531c742.css.map": "/AndreFrancisco13/portfolio/static/css/main.8531c742.css.map",
+    "main.b9faa800.js.map": "/AndreFrancisco13/portfolio/static/js/main.b9faa800.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8531c742.css",
+    "static/js/main.b9faa800.js"
+  ]
+}
