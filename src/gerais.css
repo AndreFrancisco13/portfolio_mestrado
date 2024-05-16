@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(243, 239, 235);
+    background-color: black;
+}
+
+.home
+{
+    background-image: url('./fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.card_backgrounds{
+    background-color: rgba(186, 204, 236, 0.35) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #7fa1dc;
+}
+
+
+.alert {
+    background-color: #fcfcd7; /* Um amarelo suave */
+    border-color: #efe4c5;
+    color: #3b2d04; /* Uma cor de texto que combina com o fundo amarelo */
+    border-radius: 0;
+}
+
+.alert h4 {
+    font-size: 1.5rem;
+}
+
+.alert p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.alert hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-prim {
+    background-color: #a8ada7; /* Cor primária para o botão */
+    border-radius: 0;
+}
+
+.btn-prim:hover {
+    background-color: #807508; /* Cor secundária para o botão */
+}
+
+@media (min-width: 200px) { /* Para telas grandes */
+    .custom-modal-size {
+        max-width: 80%; /* ou a porcentagem desejada */
+    }
+    .homeTitle{
+        text-align: end;
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        margin: 0;
+        padding-top: 1rem !important;
+        font-family: 'Chivo Mono', monospace;
+    }
+    .homeSubtitle{
+        text-align: end;
+    }
+    .homeTitle2{
+        text-align: left;
+        font-size: 6rem;
+        color: rgb(0, 142, 246);
+        font-weight: bolder;
+        padding: 0 !important;
+        font-family: 'Chivo Mono', monospace;
+    }
+    .icon{
+        font-size: 5rem;
+        color: rgb(0, 142, 246);
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+
+@media (min-width: 992px) { /* Para telas grandes */
+    .custom-modal-size {
+        max-width: 80%; /* ou a porcentagem desejada */
+    }
+    .homeTitle{
+        text-align: end;
+        font-size: 5rem;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        padding-top: 2rem !important;
+        font-family: 'Chivo Mono', monospace;
+    }
+    .homeSubtitle{
+        text-align: end;
+    }
+
+    .homeTitle2{
+        text-align: left;
+        font-size: 6rem;
+        color: rgb(0, 142, 246);
+        font-weight: bolder;
+        padding: 0 !important;
+        font-family: 'Chivo Mono', monospace;
+    }
+
+    .icon{
+        font-size: 8rem;
+        color: rgb(0, 142, 246);
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+
+
+.bg-card{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 5px 5px 5px 0px #0989eb;
+}
+
+.bg-bt{
+    background-color: #cccbcb !important;
+
+}
+.bg-bt:hover{
+    background-color: #a9c0e3 !important;
+}
+
+
+.pt-6 {
+    padding-top: 7rem !important;
+}
+
+
+.colorBlue{
+    color: rgb(0, 142, 246) !important;
+    font-weight: bolder !important;
+}
+
+.text-grey{
+    color: #a3c8de !important;
+}
+
+.fs-7{
+    font-size: 1.2rem !important;
+}
