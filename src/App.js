@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./components/Header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Erro from "./components/Pages/Erro";
 import Contactos   from "./components/Pages/Contactos";
 import Sobre from "./components/Pages/Sobre";
@@ -16,7 +16,7 @@ function App() {
   return (
 
       <div className="App">
-          <BrowserRouter>
+          <HashRouter>
               <Routes>
                   <Route path="/" element={<Header />}>
                       <Route index element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
                       <Route path="*" element={<Erro/>} />
                   </Route>
               </Routes>
-          </BrowserRouter>
+          </HashRouter>
 
       </div>
   );
