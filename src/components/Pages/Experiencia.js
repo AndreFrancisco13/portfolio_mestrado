@@ -44,7 +44,7 @@ return(
                     <p className='text-white'>
                         <span className='p-1 colorBlue fs-4'>  {'< '}</span>
                         With a degree in Gerontology from UA, completed in 2012, the connection to people has always been very present in my life.
-                        throughout my life. Although I followed a different path from the health sector, I dedicated a large part of my career part of my career working in customer service and managing teams in the food industry.
+                        Although I followed a different path from the health sector, I dedicated a large part of my career part working in customer service and managing teams in the food industry.
                         At the moment I'm also concerned with customers, but I've turned to online platform users so that they can achieve their goals in the most effective, efficient and rewarding way!
 
                         <span className='p-1 colorBlue fs-4'>  {' />'}</span>
