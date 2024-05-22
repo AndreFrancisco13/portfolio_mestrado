@@ -84,6 +84,10 @@ body{
         padding: 1rem;
         margin-top: 3rem;
     }
+    .desaparece{
+        display: none;
+    
+    }
 }
 
 
@@ -117,6 +121,10 @@ body{
         color: rgb(0, 142, 246);
         padding: 1rem;
         margin-top: 3rem;
+    }
+    .desaparece{
+        display: block;
+    
     }
 }
 
@@ -154,3 +162,4 @@ body{
 .fs-7{
     font-size: 1.2rem !important;
 }
+
