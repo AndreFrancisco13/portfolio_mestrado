@@ -23,7 +23,10 @@ import { BiLogoHtml5 } from "react-icons/bi";
 import { SiTailwindcss } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobepremierepro } from "react-icons/si";
-
+import Typewriter from "typewriter-effect";
+import {introdata} from "../infos/infos";
+import {skills} from "../infos/infos";
+import '../infos/animated_comp.css'
 
 
 export default function Experiencia() {
@@ -34,7 +37,19 @@ return(
         <Container className='p-4'>
             <Row className='pt-4'>
                 <Col md={7} sm={10}>
-                    <h1 className='homeTitle2 text-start'>Always grow</h1>
+                    <h1 className='homeTitle2 text-start'>
+                    <Typewriter
+                                        options={{
+                                        strings: [
+                                        introdata.animated.second,
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        deleteSpeed: 50,
+                                        pauseFor: 200000,
+                                    }}
+                                />
+                    </h1>
                     <h1 className='fs-2 fw-medium font-monospace pt-3 text-white mt-5'>Background</h1>
                 </Col>
                 <Col md={5} sm={2} className="m-auto">
@@ -54,53 +69,41 @@ return(
                 <Col sm={12} md={6} className='mt-5'>
                     <h1 className='fs-2 fw-medium font-monospace pt-3 text-white'>Interpersonal skills</h1>
                     <ul className='p-0'>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {' <'}</span>Teamwork <span className='p-1 colorBlue fs-4' >  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Leadership <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Communication <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'<'}</span>Problem solving <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Adaptability <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Empathy</li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Creativity <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Critical thinking <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
-                        <li className='text-white list-unstyled fs-4 '> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Time management <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {' <'}</span>Teamwork <span className='p-1 colorBlue fs-4' >  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Leadership <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Communication <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'<'}</span>Problem solving <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Adaptability <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Empathy</li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Creativity <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Critical thinking <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
+                        <li className='text-white list-unstyled fs-4 pt-3'> <span className='p-1 colorBlue fs-4'>  {'  <'}</span>Time management <span className='p-1 colorBlue fs-4'>  {'  />'}</span></li>
                     </ul>
                 </Col>
                 <Col sm={12} md={6} className='mt-5'>
 
                     <h1 className='fs-2 fw-medium font-monospace pt-3 text-white '>Technical skills</h1>
-                    <Row className='justify-content-center'>
-                    <Col xs={4} lg={3} className="text-center font-bold p-2">
-                        <DiJavascript className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        < DiCss3 className='icon m-0 text-grey' />
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <BiLogoHtml5 className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <TbBrandReactNative className='icon m-0 text-grey' />
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <SiTailwindcss  className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                       <SiPhp className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col xs={4} lg={3} className="text-center font-bold p-2">
-                        <FaBootstrap className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <PiFigmaLogoFill className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <SiAdobephotoshop className='icon m-0 text-grey'/>
-                    </Col>
-                    <Col  xs={4} lg={3} className="text-center font-bold p-2">
-                        <SiAdobepremierepro className='icon m-0 text-grey' />
-                    </Col>
-                    </Row>
-                    </Col>
+                    <Col className='justify-content-center'>
+                     
+                    {skills.map((data, i) => {
+                    return (
+                        <div key={i}>
+                        <h3 className="progress-title  ">{data.name}</h3>
+                        <div className="progress">
+                            <div
+                            className="progress-bar"
+                            style={{
+                                width: `${data.value}%`,
+                            }}
+                            >
+                            <div className="progress-value">{data.value}%</div>
+                            </div>
+                        </div>
+                        </div>
+                    );
+                    })}
+                </Col>
+                </Col>
             </Row>
         </Container>
     </div>

@@ -141,7 +141,7 @@ const PortfolioItems  =( {isClicked}) => {
                     {filteredWorks.map((work) => (
                         <Col xs={12} md={6} key={work.id} className="mb-4">
                             <Card className="h-100 border-0 rounded-0">
-                                <CardBody className='bg-black'>
+                                <CardBody className='bg-blue'>
                                     <CardText><img src={work.media} alt={work.title} className="img-fluid"/></CardText>
                                     <CardTitle className='h2 text-center text-white text-uppercase fw-bolder pt-2 pb-2'>{work.title}</CardTitle>
                                     <p className='text-center'>

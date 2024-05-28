@@ -1,0 +1,125 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+
+.table {
+    background-color: #fff; /* Cor de fundo clara para a tabela */
+    border: 1px solid #ddd; /* Cor de borda para a tabela */
+    font-family: 'Chivo Mono', monospace;
+}
+
+.table td,
+.table th {
+    color: #333; /* Cor do texto */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Cor de fundo para os cabeçalhos */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo para linhas pares */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #fff; /* Cor de fundo para linhas ímpares */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Cor de fundo para a linha ao passar o mouse */
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+.progress-title {
+    font-size: 16px;
+    margin: 15px 0 20px;
+    color: #ddd;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.progress {
+    height: 5px;
+    background: #555;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+    color: #ddd;
+}
+
+.progress .progress-bar {
+    position: relative;
+    background: #fff ;
+    animation: animate-positive 2s;
+    overflow: visible;
+    opacity: 0.9;
+    color: #ddd ;
+}
+
+.progress .progress-value {
+    position: absolute;
+    top: -30px;
+    right: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ddd;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.section-title {
+    font-size: 45px;
+}
+
+.service__title {
+    padding: 8px 0;
+    border-bottom: solid 2px;
+}
+
+.service-section .service-category-title {
+    padding-bottom: 4px;
+}
+
+
+/*! CSS Used keyframes */
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}

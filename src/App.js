@@ -46,7 +46,7 @@ const Home = () => {
                <Col md={5} xs={2}>
                </Col>
                <Col md={7} xs={10} className="m-auto">
-                   <h1 className='homeTitle pt-5 '>I'm Web Dev && UI-UX </h1>
+                   <h1 className='homeTitle pt-5 '>I'm a Web Dev && UI-UX </h1>
                    <h1 className='fs-3 text-white fw-light font-monospace pt-4 homeSubtitle colorBlue'>André Francisco</h1>
                </Col>
            </Row>
