@@ -26,7 +26,6 @@ import portfolio from "../../imagens/portfolio.png";
 import portfolio2 from "../../imagens/portfolio.jpg";
 import chronos from "../../imagens/chronos.png";
 import chronos2 from "../../imagens/chronos.jpg";
-import chronosVideo from "../../videos/DemoLab3Chronos.mp4";
 import sara3 from "../../imagens/sara2.jpg";
 
 import { IoArrowBackSharp } from "react-icons/io5";
@@ -122,7 +121,6 @@ const works = [
         description: "Chronos is a platform that portrays the evolution of the history of the solar system, starting with the Big Bang and ending with human space exploration. This platform is designed to be an interactive educational tool, showcasing key events and milestones in a visually engaging way.",
         media: chronos,  
         media2: chronos2,
-        media4: chronosVideo,
         spects: [ 
             "JavaScript: JavaScript was the main tool used to develop the platform. It enabled the creation of interactive animations that illustrate the evolution of the solar system, providing a dynamic and immersive learning experience. JavaScript also allowed for animated scrolling, with figures growing and shrinking and toggling between light and dark states.",
             "Figma: Figma was used for designing the animations. This tool facilitated the creation of graphics and animations that represent significant events in the history of the solar system in a clear and visually appealing manner.",
