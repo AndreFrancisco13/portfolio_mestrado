@@ -78,6 +78,17 @@ body{
         padding: 0 !important;
         font-family: 'Chivo Mono', monospace;
     }
+
+    .homeTitle3{
+        text-align: left;
+        font-size: 3rem;
+        color: rgb(0, 142, 246);
+        font-weight: bolder;
+        padding: 0 !important;
+        font-family: 'Chivo Mono', monospace;
+
+    }
+
     .icon{
         font-size: 5rem;
         color: rgb(0, 142, 246);
@@ -87,6 +98,19 @@ body{
     .desaparece{
         display: none;
     
+    }
+    .p-workdetail
+    {
+        font-size: 1rem;
+        color: white;
+       
+    }
+
+    .p-workdetail2
+    {
+        font-size: 0.7rem;
+        color: white;
+        
     }
 }
 
@@ -116,6 +140,16 @@ body{
         font-family: 'Chivo Mono', monospace;
     }
 
+    .homeTitle3{
+        text-align: left;
+        font-size: 5rem;
+        color: rgb(0, 142, 246);
+        font-weight: bolder;
+        padding: 0 !important;
+        font-family: 'Chivo Mono', monospace;
+
+    }
+
     .icon{
         font-size: 8rem;
         color: rgb(0, 142, 246);
@@ -126,9 +160,28 @@ body{
         display: block;
     
     }
+
+    .p-workdetail
+    {
+        font-size: 1.7rem;
+        color: white;
+       
+    }
+
+    .p-workdetail2
+    {
+        font-size: 1.3rem;
+        color: white;
+       
+    }
+
+ 
 }
 
-
+.fb{
+    font-family: 'chivo mono', monospace;
+    font-weight: bolder;
+}
 
 .bg-card{
     background-color: #ffffff;
@@ -162,7 +215,6 @@ body{
 .fs-7{
     font-size: 1.2rem !important;
 }
-
 
 
 

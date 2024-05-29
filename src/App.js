@@ -9,7 +9,10 @@ import Experiencia from "./components/Pages/Experiencia";
 import Portfolio from "./components/Pages/Portfolio";
 import "./gerais.css"
 import {Container, Row, Col} from "reactstrap";
+import WorkDetail from "./components/Lists/Workdetail";
 
+import {Link} from "react-router-dom";
+import {Button} from "reactstrap";
 
 function App() {
 
@@ -25,6 +28,7 @@ function App() {
                       <Route path="portfolio" element={<Portfolio />} />
                       <Route path="contacts" element={<Contactos />} />
                       <Route path="*" element={<Erro/>} />
+                      <Route path="workdetail/:id" element={<WorkDetail />} />
                   </Route>
               </Routes>
           </HashRouter>
@@ -48,6 +52,9 @@ const Home = () => {
                <Col md={7} xs={10} className="m-auto">
                    <h1 className='homeTitle pt-5 '>I'm a Web Dev && UI-UX </h1>
                    <h1 className='fs-3 text-white fw-light font-monospace pt-4 homeSubtitle colorBlue'>André Francisco</h1>
+                   <Link to="/about">
+                    <Button className="bg-transparent colorBlue fs-5 fw-bold border-2 float-end mt-4">About</Button> 
+                     </Link>
                </Col>
            </Row>
 

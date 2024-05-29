@@ -16,7 +16,7 @@ return(
     <div className='pt-6'>
         <Container className='p-4'>
             <Row className='pt-4'>
-                <Col md={7} sm={10}>
+                <Col sm={10}>
                     <h1 className='homeTitle2 text-start'>
                     <Typewriter
                                      options={{
