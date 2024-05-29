@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio_mestrado/static/css/main.bef8caee.css",
-    "main.js": "/portfolio_mestrado/static/js/main.30f5c420.js",
+    "main.css": "/portfolio_mestrado/static/css/main.2cf0454f.css",
+    "main.js": "/portfolio_mestrado/static/js/main.dfcf41c7.js",
     "static/media/sara.jpg": "/portfolio_mestrado/static/media/sara.59b64185064d8cc39d5f.jpg",
     "static/media/fundo.png": "/portfolio_mestrado/static/media/fundo.525477e97eaf2dfd115d.png",
     "static/media/andre.png": "/portfolio_mestrado/static/media/andre.79abd8ee007dcee0371a.png",
     "static/media/topIndian.jpg": "/portfolio_mestrado/static/media/topIndian.fb59853ede8cdb07af13.jpg",
     "static/media/lodo.jpg": "/portfolio_mestrado/static/media/lodo.16f7bda0bd365d66721c.jpg",
     "static/media/oposti.jpg": "/portfolio_mestrado/static/media/oposti.7761ea1edcddd405dc8f.jpg",
+    "static/media/sara2.jpg": "/portfolio_mestrado/static/media/sara2.c95d21a0d750367c0e19.jpg",
     "static/media/planetarium.jpg": "/portfolio_mestrado/static/media/planetarium.04194bcdb9b91784c2ee.jpg",
     "static/media/travel.jpg": "/portfolio_mestrado/static/media/travel.4e2d05628e392a90b8c0.jpg",
     "static/media/lodo.png": "/portfolio_mestrado/static/media/lodo.195e9d216d094e4bd098.png",
@@ -16,7 +17,9 @@
     "static/media/portfolio.png": "/portfolio_mestrado/static/media/portfolio.69dace0d378097d5fe7f.png",
     "static/media/oposti.png": "/portfolio_mestrado/static/media/oposti.fdb9920e648fb4e67d69.png",
     "static/media/sara.png": "/portfolio_mestrado/static/media/sara.5913e0014d962b6aa14d.png",
+    "static/media/chronos.png": "/portfolio_mestrado/static/media/chronos.e1517a715749fed9c9f4.png",
     "static/media/planetarium.png": "/portfolio_mestrado/static/media/planetarium.ef2aac26429e4ec7b3c9.png",
+    "static/media/chronos.jpg": "/portfolio_mestrado/static/media/chronos.4716df1ac0768f97d2f6.jpg",
     "static/media/bootstrap.png": "/portfolio_mestrado/static/media/bootstrap.376c3f5a4a12bf9bada9.png",
     "static/media/portfolio.jpg": "/portfolio_mestrado/static/media/portfolio.7d49a5881c2da6b94c80.jpg",
     "static/media/react.png": "/portfolio_mestrado/static/media/react.8a6fc0a24a800d1e0f4a.png",
@@ -26,11 +29,11 @@
     "static/media/Tailwind.png": "/portfolio_mestrado/static/media/Tailwind.44fb29892e0602c1dd64.png",
     "static/media/HTML5.png": "/portfolio_mestrado/static/media/HTML5.94972f53c025a8fb7e2b.png",
     "index.html": "/portfolio_mestrado/index.html",
-    "main.bef8caee.css.map": "/portfolio_mestrado/static/css/main.bef8caee.css.map",
-    "main.30f5c420.js.map": "/portfolio_mestrado/static/js/main.30f5c420.js.map"
+    "main.2cf0454f.css.map": "/portfolio_mestrado/static/css/main.2cf0454f.css.map",
+    "main.dfcf41c7.js.map": "/portfolio_mestrado/static/js/main.dfcf41c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef8caee.css",
-    "static/js/main.30f5c420.js"
+    "static/css/main.2cf0454f.css",
+    "static/js/main.dfcf41c7.js"
   ]
 }
