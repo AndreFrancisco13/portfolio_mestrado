@@ -11,7 +11,7 @@ export default function Erro() {
 
     <Container className=" pt-6 p-4">
             <Row className='pt-4 pb-3'>
-                <Col sm={10}>
+                <Col md={7} sm={10}>
                     <h1 className='homeTitle2 text-start'>
                     <Typewriter
                                      options={{
